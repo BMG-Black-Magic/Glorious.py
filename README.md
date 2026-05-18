@@ -1,6 +1,6 @@
 ## How it works
 
-squeak talks directly to the mouse over USB HID using the Sinowealth protocol, the same chipset used across most Glorious mice. It reads and writes a 131-byte config block stored in the mouse's onboard flash.
+Glorious.py (orignal name Glorious.py) talks directly to the mouse over USB HID using the Sinowealth protocol, the same chipset used across most Glorious mice. It reads and writes a 131-byte config block stored in the mouse's onboard flash.
 
 Protocol originally reverse engineered by [enkore/gloriousctl](https://github.com/enkore/gloriousctl).
 Much of the work was done b him i just ported everything to python. Please give him love!
@@ -34,18 +34,18 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 ## Usage
 
 ```bash
-python squeak.py info
-python squeak.py dpi 400,800,1600,3200
-python squeak.py dpi-color FF0000,00FF00,0000FF,FFFFFF
-python squeak.py effect glorious --brightness 3 --speed 2
-python squeak.py effect single --colors FF0000 --brightness 4
-python squeak.py effect breathing1 --colors 8800FF --speed 2
-python squeak.py effect breathing7 --colors FF0000,FF7700,FFFF00,00FF00,00FFFF,0000FF,FF00FF
-python squeak.py effect rave --colors FF00AA,00FFFF --brightness 4 --speed 3
-python squeak.py effect off
-python squeak.py lod 2
-python squeak.py debounce
-python squeak.py debounce 8
+python Glorious.py info
+python Glorious.py dpi 400,800,1600,3200
+python Glorious.py dpi-color FF0000,00FF00,0000FF,FFFFFF
+python Glorious.py effect glorious --brightness 3 --speed 2
+python Glorious.py effect single --colors FF0000 --brightness 4
+python Glorious.py effect breathing1 --colors 8800FF --speed 2
+python Glorious.py effect breathing7 --colors FF0000,FF7700,FFFF00,00FF00,00FFFF,0000FF,FF00FF
+python Glorious.py effect rave --colors FF00AA,00FFFF --brightness 4 --speed 3
+python Glorious.py effect off
+python Glorious.py lod 2
+python Glorious.py debounce
+python Glorious.py debounce 8
 ```
 
 ### Effects
