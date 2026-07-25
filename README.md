@@ -3,7 +3,7 @@
 
 
 *Glorious Model O Eternal  RGB and DPI control Tool*
-
+*# Shout out https://github.com/enkore/gloriousctl for doing the orignal work <3*
 -replaced ai overview with less lazy description. thanks github.-
 
 there was not a tool to modify my mouse available from the website, only available for windows and mac.
