@@ -5,7 +5,7 @@
 *Glorious Model O Eternal  RGB and DPI control Tool*
 
 
-*# Shout out https://github.com/enkore/gloriousctl for doing the orignal work <3*
+*Shout out https://github.com/enkore/gloriousctl for doing the orignal work <3*
 
 
 -replaced ai overview with less lazy description. thanks github.-
