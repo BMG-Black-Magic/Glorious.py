@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# Shout out https://github.com/enkore/gloriousctl for doing the orignal work <3
 import sys
 import argparse
 import contextlib
