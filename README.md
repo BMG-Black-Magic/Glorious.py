@@ -1,3 +1,4 @@
+<img width="560" height="725" alt="glorious-gui" src="https://github.com/user-attachments/assets/24a0176b-8834-49f1-8741-abee0e826cb3" />
 *Glorious Model O Eternal  RGB and DPI control Tool*
 replaced ai overview with less lazy description. thanks github.
 
